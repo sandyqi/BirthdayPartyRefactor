@@ -14,8 +14,8 @@ public class BalloonsOrderTest {
                 .setMaterial("gold")
                 .setNumber(2)
                 .build();
-        assertEquals(balloonsOrder.balloonColor, "yellow");
-        assertEquals(balloonsOrder.material, "gold");
-        assertEquals(balloonsOrder.number, 2);
+        assertEquals("balloon color should match", balloonsOrder.balloonColor, "yellow");
+        assertEquals("balloon material should match", balloonsOrder.material, "gold");
+        assertEquals("balloon number should match", balloonsOrder.number, 2);
     }
 }
